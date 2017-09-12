@@ -1,0 +1,350 @@
+@font-face{
+    font-family: "FFF Tusj";
+    src: url('fff_tusj-webfont.woff')
+}
+
+body,h3,h4,h5,h6 {font-family: verdana;}
+body, html {
+    background-color:#d8dfe7;
+    height: 100%;
+    line-height: 1.8;
+}
+h1{
+    font-family: 'FFF Tusj', verdana;
+    font-size:24px;
+}
+.container-fluid{
+    background-color:#d8dfe7;
+}
+h2{
+    font-family: 'FFF Tusj', verdana;
+}
+
+h3{
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+h4 { 
+    color:white;
+    font-weight:bold;
+    padding-top:25px;
+ }
+
+.w3-center{
+   font-family: /*'FFF Tusj', */verdana;  
+}
+#myNavbar > li >a{
+  color:#cd5c5c;
+  font-size:30px; 
+   
+}
+body > div > ol > li > a{
+    color:#cd5c5c;
+    font-size:30px;
+}
+
+i{
+    color: #303030;
+    font-size:11px;
+}
+p{
+    color:#303030;
+    font-family: verdana;
+    font-size:15px;   
+}
+span {
+    color:#303030;
+    font-family:verdana;
+    font-size: 16px;
+    
+   
+}
+li a{
+   color:#303030;   
+   font-family: verdana;
+}
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('images/roue.jpg');
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("images/bobine.jpg");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("images/doigt.jpeg");
+    min-height: 400px;
+}
+
+.w3-hover-opacity {
+    cursor: pointer;
+}
+
+/* index.html*/
+
+
+.film{  
+    font-family: 'FFF Tusj';
+    font-size:30px;
+    letter-spacing: 2px;
+}
+
+.title{
+    background-color: black;  
+    margin-top:150px;
+    text-align:center;
+}
+
+.main-title{
+   color:#FEFDF7; 
+   font-family: 'FFF Tusj', verdana;
+}
+
+.synopsys{
+    margin-bottom:50px;  
+    margin-top:70px; 
+}
+
+.description{
+    background-color:#FEFDF7;
+    border-radius: 30px;
+    font-weight: bold;     
+    height: 50%;
+    padding-bottom:30px; 
+    padding-top:30px;
+}
+
+.skills{
+    font-weight:600;
+    margin-top:30px;
+}
+.formation{
+    background-color:#FBFCFA; 
+    border-radius:30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.right{
+    font-size:14px;
+    height: 60px;
+    padding-top:7px;
+    text-align: right;
+}
+.image{
+    margin-top: 18px;
+    width: 200px;
+}
+.jauge{
+    height: 60px;
+}
+.photos{
+    margin:auto;
+}
+.explicatif{
+    margin-bottom:20px;
+    margin-top:30px;
+}
+
+.compImg{
+    background-size:contain;
+}
+.exp{
+    width:90%;
+}
+.load{
+    margin-bottom:10px;
+}
+.coffee{
+    font-size:18px;
+}
+
+
+
+/*experiences.html*/
+
+.diapo{
+    padding-top:1%; 
+    text-align:center;
+}
+.pel{
+    width:100%;
+}
+.parcours{
+    margin-bottom:3%;
+    margin-top:3%;
+}
+
+.btn-default{
+    margin-top:20px;    
+    width: 300px;
+}
+.top{
+    background-color:#FBFCFA; 
+    padding-top:20px;
+}
+.fonction{ 
+    margin-top:5px;    
+}
+
+.hauteur{
+    height:120px;
+}
+
+.little{
+    background-color:#f5f5f5;
+    height: 80px;
+}
+
+.hauteur li{
+   font-size: 12px; 
+}
+
+.mef{
+    font-family:verdana;
+    margin-top: 25px;
+}
+.mef1{
+    font-family:verdana;
+    margin-top: 25px;
+}
+
+
+.mef2{
+    font-family:verdana;
+    margin-top:55px;
+}
+.mef5{
+    font-family:verdana;
+    margin-top:55px;
+}
+
+.mef3{
+    font-weight:bold;
+    padding-top:50px;
+}
+
+.mef4{
+    list-style:none;
+    padding-left:0px;
+    padding-top:20px;
+}
+.dern{
+    margin-bottom:20px;
+    margin-top:40px;
+}
+.dern1{
+    margin-bottom:10px;
+    margin-top:70px;
+}
+
+.downloader{
+margin-left: 50px;
+}
+#webmarketing > div > div.col-md-6.col-xs-12 > li:nth-child(2) > a{
+    color:#000080;
+    font-family:verdana;
+    font-size:20px;
+    font-weight: bold;
+}
+#webmarketing > div > div.col-md-6.col-xs-12 > li:nth-child(3) > a{
+    color:#000080;
+    font-family:verdana;
+    font-size:20px;
+    font-weight:bold;
+}
+#webmarketing > div > div.col-md-6.col-xs-12 > ul> li{
+    font-size:16px!important;
+}
+#webmarketing > div > div.col-md-6.col-xs-12 > p:nth-child(7){
+    color:#000080!important;
+    font-size:15px;
+    font-weight:bold;
+}
+/*404*/
+.profil{
+    height:700px;   
+}
+.profilImg{
+    width:70%;
+}
+
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.description{
+    padding-top:10px;
+}
+.exp{
+    margin-top:10px;
+}
+.little{
+    background-color:#FBFCFA;
+    height:60%;
+}
+.mef1{
+    margin-top:5px;
+}
+.mef2{
+    margin-top:10px;
+    text-decoration:underline;
+}
+.mef5{
+    margin-top:10px;
+}
+.mef{
+    text-decoration:underline;
+}
+.mef3{
+    padding-top:10px;
+    
+}
+.btn-default{  
+    width: 200px;
+}
+
+.blocPhotos{
+    height:20px;
+    }
+.photos{
+    visibility:hidden;
+    }
+.description{
+    margin-bottom:20px;
+    }
+.right{ 
+    font-size: 8px; 
+} 
+
+.profil{
+    height:500px;   
+}
+
+.profilImg{
+    background-size:cover;
+}
+.badPage{
+    text-align:right;
+}
+}
+
+
